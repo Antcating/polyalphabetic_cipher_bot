@@ -19,10 +19,12 @@ Addiction information about Bot API and etc. can be found on the main page of th
 
 #### In-bot config 
 
+**Initial in-bot config**
+
 Before beginning encoding/decoding you have to type *new_key*, to get unique key, that can be used for encoding/decoding. 
 You have to save it and use it every time (it can be copied by clicking on it on the phone). Number of keys, that could be created is not limited. 
 
-Usage
+**Usage**
 
 *key* - start the program.\
 *0* - get to main menu.\
