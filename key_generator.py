@@ -1,7 +1,7 @@
 # New keys generator
 import uuid
 import random
-
+import os
 
 alphabet_1 = []
 alphabet_2 = []
@@ -10,8 +10,11 @@ alphabet_4 = []
 
 def key_generator():
     alphabet_key = str(uuid.uuid4())
-    key_stor = open('keys/' + alphabet_key, 'w+').close()
-    
+    try:
+        key_stor = open('keys/' + alphabet_key, 'w+').close()
+    except: 
+        os.mkdir('keys')
+        key_stor = open('keys/' + alphabet_key, 'w+').close()
     i = 0
     while i < 100:
         lettr_1 = chr(random.randint(200,300))
