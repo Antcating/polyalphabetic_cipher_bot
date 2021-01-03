@@ -26,7 +26,7 @@ Usage
 
 *key* - start the program.\
 *0* - get to main menu.\
-*new_key* - get new key.\
+*new_key* - get new key.
 
 Also can be used commands with same names.
 
