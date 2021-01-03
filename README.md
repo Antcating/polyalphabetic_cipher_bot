@@ -24,9 +24,9 @@ You have to save it and use it every time (it can be copied by clicking on it on
 
 Usage
 
-*key* - start the program.
-*0* - get to main menu.
-*new_key* - get new key.
+*key* - start the program.\
+*0* - get to main menu.\
+*new_key* - get new key.\
 
 Also can be used commands with same names.
 
